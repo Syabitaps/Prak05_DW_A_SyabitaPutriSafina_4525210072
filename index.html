@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buttercup — Toko Online</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="announcement">✿ Little things, lovely days — gratis ongkir untuk pesanan tertentu ✿</div>
+
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Buttercup beranda"><span class="brand-flower">✿</span> buttercup<span class="brand-dot">.</span></a>
+    <nav class="desktop-nav" aria-label="Navigasi utama">
+      <a href="#beranda">Beranda</a>
+      <a href="#produk">Produk</a>
+      <a href="#tentang">Tentang Kami</a>
+    </nav>
+    <a class="cart-link" href="#produk" aria-label="Lihat produk"><span>♡</span> <b>Belanja</b></a>
+  </header>
+
+  <main>
+    <section class="hero" id="beranda">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> YOUR EVERYDAY HAPPY PLACE</p>
+        <h1>Hal kecil,<br>bahagia <em>besar.</em></h1>
+        <p class="hero-description">Temukan barang-barang pilihan yang bikin hari kamu terasa lebih manis. Simpel, cantik, dan dibuat untuk menemani keseharianmu.</p>
+        <a class="primary-button" href="#produk">Jelajahi koleksi <span>↗</span></a>
+        <div class="hero-note"><span class="note-stars">★★★★★</span><span>Disukai banyak pelanggan manis kami</span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustrasi produk toko online">
+        <div class="sun-shape"></div>
+        <div class="hero-sticker sticker-one">made with<br>♡ for you</div>
+        <div class="hero-sticker sticker-two">little joys ✿</div>
+        <div class="product-illustration">
+          <div class="jar-lid"></div><div class="jar">
+            <div class="jar-label"><span>buttercup</span><strong>daily<br>essentials</strong><small>GOOD THINGS INSIDE</small></div>
+          </div>
+          <div class="flower flower-a">✿</div><div class="flower flower-b">✿</div>
+        </div>
+        <div class="hero-caption">A little treat for yourself <span>♡</span></div>
+      </div>
+    </section>
+
+    <section class="benefits" aria-label="Keunggulan toko">
+      <div><span class="benefit-icon">♡</span><span><b>Dipilih dengan cinta</b><small>Produk pilihan berkualitas</small></span></div>
+      <div><span class="benefit-icon">✧</span><span><b>Packaging cantik</b><small>Siap jadi hadiah manis</small></span></div>
+      <div><span class="benefit-icon">☼</span><span><b>Belanja nyaman</b><small>Praktis dari mana saja</small></span></div>
+    </section>
+
+    <section class="products-section" id="produk">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE LITTLE SHOP</p><h2>Temukan favoritmu<span>.</span></h2></div>
+        <p>Barang lucu yang siap bikin<br>hari kamu lebih berwarna.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image image-bag"><span class="product-tag">BEST SELLER</span><div class="bag-shape"><div class="bag-handle"></div><span>♡</span></div><span class="image-sparkle">✦</span></div>
+          <div class="product-info"><div><h3>Daily Tote Bag</h3><p>Tas kanvas serbaguna</p></div><strong>Rp89.000</strong></div>
+          <button class="add-button" type="button" data-product="Daily Tote Bag">+ Tambah ke keranjang</button>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-cup"><span class="product-tag">NEW ARRIVAL</span><div class="cup-shape"><div class="cup-handle"></div><span>slow<br>mornings</span></div><span class="cup-flower">✿</span></div>
+          <div class="product-info"><div><h3>Morning Mug</h3><p>Cangkir keramik manis</p></div><strong>Rp65.000</strong></div>
+          <button class="add-button" type="button" data-product="Morning Mug">+ Tambah ke keranjang</button>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-notebook"><div class="notebook-shape"><span>little<br>notes</span><i>✿</i></div><span class="note-pencil"></span><span class="image-sparkle">✧</span></div>
+          <div class="product-info"><div><h3>Little Notes</h3><p>Buku catatan harian</p></div><strong>Rp42.000</strong></div>
+          <button class="add-button" type="button" data-product="Little Notes">+ Tambah ke keranjang</button>
+        </article>
+        <article class="product-card">
+          <div class="product-image image-candle"><span class="product-tag">COZY PICK</span><div class="candle-flame"></div><div class="candle-jar"><span>soft<br>sunshine</span><small>SCENTED CANDLE</small></div><span class="candle-star">✧</span></div>
+          <div class="product-info"><div><h3>Soft Sunshine</h3><p>Lilin aromaterapi</p></div><strong>Rp75.000</strong></div>
+          <button class="add-button" type="button" data-product="Soft Sunshine">+ Tambah ke keranjang</button>
+        </article>
+      </div>
+      <p class="cart-message" id="cart-message" role="status" aria-live="polite">Keranjang kamu masih kosong ♡</p>
+    </section>
+
+    <section class="about-section" id="tentang">
+      <div class="about-flower">✿</div>
+      <div><p class="eyebrow">A NOTE FROM US</p><h2>Karena kamu pantas<br>mendapat hal yang <em>baik.</em></h2><p>Buttercup hadir untuk mengumpulkan barang-barang kecil yang membawa rasa nyaman. Terima kasih sudah mampir dan mendukung toko kecil kami!</p></div>
+      <a class="outline-button" href="#produk">Lihat produk <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#beranda"><span class="brand-flower">✿</span> buttercup<span class="brand-dot">.</span></a><p>Made with a little extra love ♡</p><small>© 2026 Buttercup Store · Project Praktikum</small></footer>
+
+  <script>
+    const buttons = document.querySelectorAll('.add-button');
+    const message = document.getElementById('cart-message');
+    const cart = [];
+    buttons.forEach((button) => {
+      button.addEventListener('click', () => {
+        cart.push(button.dataset.product);
+        message.textContent = `Yeay! ${button.dataset.product} masuk keranjang ♡ Total item: ${cart.length}`;
+        button.textContent = '✓ Ditambahkan';
+        button.classList.add('added');
+        window.setTimeout(() => {
+          button.textContent = '+ Tambah ke keranjang';
+          button.classList.remove('added');
+        }, 1300);
+      });
+    });
+  </script>
+</body>
+</html>
