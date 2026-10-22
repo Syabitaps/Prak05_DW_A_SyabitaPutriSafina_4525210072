@@ -72,9 +72,4 @@ Website Buttercup menggunakan kombinasi warna pastel yang lembut agar terlihat h
 
 Website Buttercup merupakan project praktikum pembuatan toko online sederhana menggunakan HTML, CSS, dan JavaScript. Website ini memiliki tampilan yang menarik dengan kombinasi warna pastel, kartu produk, navigasi, dan interaksi keranjang. Desain responsif diterapkan agar tampilan dapat menyesuaikan ukuran layar perangkat. Website ini masih berupa simulasi front-end dan belum terhubung dengan database maupun sistem pembayaran.
 
-## 8. Pembagian Peran Kelompok
 
-- Perancangan wireframe desktop dan mobile: Nama anggota
-- Pembuatan struktur HTML: Nama anggota
-- Styling CSS dan desain responsif: Nama anggota
-- Pengujian website, screenshot, dan dokumentasi: Nama anggota
